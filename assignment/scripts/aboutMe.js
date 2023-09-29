@@ -25,13 +25,18 @@ var adventurous = true;
 console.log(adventurous);
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
-
+var food = 'Breaded fish';
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
-
+var pets = 3;
+console.log(pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-
+var friendsPets = 1;
+console.log(friendsPets, food);
 // 10 - Add two pets to your `pets` variable
+pets += 2;
+console.log(pets)
+// Im assuming by this it means add 2 to your pet variable
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
