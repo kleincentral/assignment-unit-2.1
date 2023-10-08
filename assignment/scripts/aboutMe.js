@@ -17,21 +17,21 @@ console.log(luckyNumber);
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-var introduction = 'My name is ' + fullName + ' and I think ' + luckyNumber + ' is a winner!';
+const introduction = 'My name is ' + fullName + ' and I think ' + luckyNumber + ' is a winner!';
 console.log(introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-var adventurous = true;
+let adventurous = true;
 console.log(adventurous);
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
-var food = 'Breaded fish';
+const food = 'Breaded fish';
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
-var pets = 3;
+let pets = 3;
 console.log(pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-var friendsPets = 1;
+let friendsPets = 1;
 console.log(friendsPets, food);
 // 10 - Add two pets to your `pets` variable
 pets += 2;
@@ -39,17 +39,17 @@ console.log(pets)
 // Im assuming by this it means add 2 to your pet variable
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-var allowedPets = 4;
+let allowedPets = 4;
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-var result 
+let result ="";
 if (adventurous) {
-  var result = "Adventures are great!";
+  result = "Adventures are great!";
 }
 else {
-  var result = "How about we stay home?";
+  result = "How about we stay home?";
 }
 console.log(result);
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
@@ -57,9 +57,9 @@ console.log(result);
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
-var diceRoll = 'Try again later.'
+const diceRoll = 'Try again later.'
 if (luckyNumber==2 && adventurous) {
-  var diceRoll = 'Roll the dice!';
+  const diceRoll = 'Roll the dice!';
 }
 console.log(diceRoll);
 
@@ -71,14 +71,15 @@ console.log(diceRoll);
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
+let petStatus= "";
 if (pets<allowedPets){
-  var petStatus="I can have more pets";
+  petStatus="I can have more pets";
 }
 else if (pets==allowedPets){
-  var petStatus="I have enough pets";
+  petStatus="I have enough pets";
 }
 else if (pets>allowedPets){
-  var petStatus="Oh no, I have too many pets!"
+  petStatus="Oh no, I have too many pets!"
 }
 console.log(petStatus);
 
